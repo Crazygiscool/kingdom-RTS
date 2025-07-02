@@ -87,7 +87,7 @@
 PRE PRE PRE ALPHA of the game expect bugs and glitches, ebdiuqebnfueqfbuieqbfiu
 
 Glitches Found:
-* glitch 1
+* I was dumb and didn't upload the .godot folder, had to extract the .pck file, almost thought I lost it
 * glitch 2
 * glitch 3
 
