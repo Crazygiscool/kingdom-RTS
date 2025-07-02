@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="kingdoms RTS"
-config/description="An RTS game by Crazyg, first ever game"
+config/description="An RTS game by Crazygiscool, first ever game"
 config/tags=PackedStringArray("rts")
 run/main_scene="res://scenes/game.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
