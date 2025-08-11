@@ -1,0 +1,72 @@
+[gd_scene load_steps=11 format=3 uid="uid://kbiyrewqcn7h"]
+
+[ext_resource type="Script" path="res://scripts/shop.gd" id="1_wko4s"]
+[ext_resource type="Texture2D" uid="uid://b5bxximmtc42w" path="res://assets/self/shop.png" id="2_jfq8s"]
+[ext_resource type="Texture2D" uid="uid://buno6wfxbk75o" path="res://assets/self/trader.png" id="3_2qdy8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jq36l"]
+atlas = ExtResource("2_jfq8s")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5x8n1"]
+atlas = ExtResource("2_jfq8s")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e2fl3"]
+atlas = ExtResource("2_jfq8s")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yo4js"]
+atlas = ExtResource("2_jfq8s")
+region = Rect2(32, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a5rkv"]
+atlas = ExtResource("2_jfq8s")
+region = Rect2(0, 64, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mmf8s"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jq36l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5x8n1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e2fl3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yo4js")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a5rkv")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a6k27"]
+size = Vector2(36, 35)
+
+[node name="Shop" type="Area2D"]
+script = ExtResource("1_wko4s")
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -17)
+sprite_frames = SubResource("SpriteFrames_mmf8s")
+autoplay = "default"
+frame_progress = 0.153818
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -17.5)
+shape = SubResource("RectangleShape2D_a6k27")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(-9, -15)
+scale = Vector2(0.40625, 0.375)
+texture = ExtResource("3_2qdy8")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

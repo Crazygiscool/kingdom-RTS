@@ -1,31 +1,32 @@
-[gd_scene load_steps=36 format=4 uid="uid://dayataug1mqkn"]
+[gd_scene load_steps=37 format=4 uid="uid://dayataug1mqkn"]
 
-[ext_resource type="Script" path="res://scripts/daynightscene.gd" id="1_bt5mj"]
-[ext_resource type="PackedScene" path="res://entities/tree.tscn" id="2_e1j6l"]
-[ext_resource type="PackedScene" path="res://entities/mushroom.tscn" id="3_pl11u"]
-[ext_resource type="Texture2D" uid="uid://twqaocd8udyf" path="res://assets/self/tilemap_packed.png" id="4_bhx41"]
-[ext_resource type="Texture2D" uid="uid://broqqgjswckat" path="res://assets/brackeys_platformer_assets/sprites/world_tileset.png" id="5_qnb83"]
-[ext_resource type="PackedScene" path="res://builds/portal.tscn" id="6_sww3w"]
-[ext_resource type="Script" path="res://scripts/gameportal.gd" id="7_suyxu"]
-[ext_resource type="Texture2D" uid="uid://1dcpmv6pavyw" path="res://assets/self/portal.png" id="8_sgl2t"]
-[ext_resource type="PackedScene" path="res://entities/slime.tscn" id="9_qouja"]
-[ext_resource type="PackedScene" path="res://scenes/hud.tscn" id="10_wljb1"]
-[ext_resource type="Texture2D" uid="uid://co3wi1q13yn45" path="res://assets/self/sprint.png" id="11_v2yb1"]
-[ext_resource type="Script" path="res://scripts/daylight_cycle_ui.gd" id="12_js0lu"]
-[ext_resource type="Texture2D" uid="uid://cahad7peudxin" path="res://assets/self/daynightcycle-ui.png" id="13_gxtfn"]
-[ext_resource type="PackedScene" path="res://entities/player.tscn" id="14_twgab"]
-[ext_resource type="Script" path="res://scripts/sound_machine.gd" id="15_02fa5"]
-[ext_resource type="AudioStream" uid="uid://cltvv1rl35sdw" path="res://assets/sounds/morningcrow.ogg" id="16_nepv3"]
-[ext_resource type="AudioStream" uid="uid://2at43ytc3k00" path="res://assets/sounds/howlingwolf.ogg" id="17_7025r"]
-[ext_resource type="AudioStream" uid="uid://bcqrpwwlrpn3u" path="res://assets/sounds/nature-soundscape.ogg" id="18_m4url"]
-[ext_resource type="AudioStream" uid="uid://c2qq20xij2xdg" path="res://assets/sounds/creepy-soundscape.ogg" id="19_8ool0"]
-[ext_resource type="PackedScene" path="res://builds/well.tscn" id="20_pr1ej"]
-[ext_resource type="Script" path="res://scripts/daynightcycle.gd" id="21_05nbr"]
-[ext_resource type="PackedScene" path="res://builds/shop.tscn" id="22_0sl42"]
-[ext_resource type="PackedScene" path="res://entities/cursor.tscn" id="23_oaba0"]
+[ext_resource type="Script" path="res://scripts/daynightscene.gd" id="1_e1j6l"]
+[ext_resource type="PackedScene" path="res://entities/tree.tscn" id="2_pl11u"]
+[ext_resource type="PackedScene" path="res://entities/mushroom.tscn" id="3_bhx41"]
+[ext_resource type="Texture2D" uid="uid://twqaocd8udyf" path="res://assets/self/tilemap_packed.png" id="4_qnb83"]
+[ext_resource type="Texture2D" uid="uid://broqqgjswckat" path="res://assets/brackeys_platformer_assets/sprites/world_tileset.png" id="5_sww3w"]
+[ext_resource type="PackedScene" path="res://builds/portal.tscn" id="6_suyxu"]
+[ext_resource type="Script" path="res://scripts/gameportal.gd" id="7_sgl2t"]
+[ext_resource type="Texture2D" uid="uid://1dcpmv6pavyw" path="res://assets/self/portal.png" id="8_qouja"]
+[ext_resource type="PackedScene" path="res://entities/slime.tscn" id="9_wljb1"]
+[ext_resource type="PackedScene" path="res://scenes/hud.tscn" id="10_v2yb1"]
+[ext_resource type="Texture2D" uid="uid://co3wi1q13yn45" path="res://assets/self/sprint.png" id="11_js0lu"]
+[ext_resource type="Script" path="res://scripts/daylight_cycle_ui.gd" id="12_gxtfn"]
+[ext_resource type="Texture2D" uid="uid://cahad7peudxin" path="res://assets/self/daynightcycle-ui.png" id="13_twgab"]
+[ext_resource type="PackedScene" path="res://entities/player.tscn" id="14_02fa5"]
+[ext_resource type="Script" path="res://scripts/sound_machine.gd" id="15_nepv3"]
+[ext_resource type="AudioStream" uid="uid://cltvv1rl35sdw" path="res://assets/sounds/morningcrow.ogg" id="16_7025r"]
+[ext_resource type="AudioStream" uid="uid://2at43ytc3k00" path="res://assets/sounds/howlingwolf.ogg" id="17_m4url"]
+[ext_resource type="AudioStream" uid="uid://bcqrpwwlrpn3u" path="res://assets/sounds/nature-soundscape.ogg" id="18_8ool0"]
+[ext_resource type="AudioStream" uid="uid://c2qq20xij2xdg" path="res://assets/sounds/creepy-soundscape.ogg" id="19_pr1ej"]
+[ext_resource type="PackedScene" uid="uid://bo3lwepxt3438" path="res://builds/well.tscn" id="20_05nbr"]
+[ext_resource type="Script" path="res://scripts/daynightcycle.gd" id="21_0sl42"]
+[ext_resource type="Texture2D" path="res://assets/self/daynightcycle-gradient-texture.tres" id="22_oaba0"]
+[ext_resource type="PackedScene" uid="uid://kbiyrewqcn7h" path="res://builds/shop.tscn" id="23_458eo"]
+[ext_resource type="PackedScene" path="res://entities/cursor.tscn" id="24_h3rex"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fyfs1"]
-texture = ExtResource("4_bhx41")
+texture = ExtResource("4_qnb83")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -197,7 +198,7 @@ texture = ExtResource("4_bhx41")
 11:10/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7mefr"]
-texture = ExtResource("5_qnb83")
+texture = ExtResource("5_sww3w")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 1:0/0 = 0
@@ -390,27 +391,27 @@ sources/0 = SubResource("TileSetAtlasSource_fyfs1")
 sources/1 = SubResource("TileSetAtlasSource_7mefr")
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_n54ch"]
-atlas = ExtResource("8_sgl2t")
+atlas = ExtResource("8_qouja")
 region = Rect2(0, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5xemu"]
-atlas = ExtResource("8_sgl2t")
+atlas = ExtResource("8_qouja")
 region = Rect2(32, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_brfh7"]
-atlas = ExtResource("8_sgl2t")
+atlas = ExtResource("8_qouja")
 region = Rect2(0, 32, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xr05i"]
-atlas = ExtResource("8_sgl2t")
+atlas = ExtResource("8_qouja")
 region = Rect2(32, 32, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_03es4"]
-atlas = ExtResource("8_sgl2t")
+atlas = ExtResource("8_qouja")
 region = Rect2(0, 64, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_hbxh4"]
-atlas = ExtResource("8_sgl2t")
+atlas = ExtResource("8_qouja")
 region = Rect2(32, 64, 32, 32)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_n030b"]
@@ -440,71 +441,71 @@ animations = [{
 }]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_25uph"]
-atlas = ExtResource("13_gxtfn")
+atlas = ExtResource("13_twgab")
 region = Rect2(0, -8.775, 0, 0)
 margin = Rect2(0, -4.15, 0, 0)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5x7lf"]
-atlas = ExtResource("13_gxtfn")
+atlas = ExtResource("13_twgab")
 region = Rect2(2, 47, 16, 5)
 
 [node name="Game" type="Node2D"]
 y_sort_enabled = true
-script = ExtResource("1_bt5mj")
+script = ExtResource("1_e1j6l")
 
 [node name="trees" type="Node2D" parent="."]
 y_sort_enabled = true
 
-[node name="Tree" parent="trees" instance=ExtResource("2_e1j6l")]
+[node name="Tree" parent="trees" instance=ExtResource("2_pl11u")]
 position = Vector2(62, -211)
 
-[node name="Tree2" parent="trees" instance=ExtResource("2_e1j6l")]
+[node name="Tree2" parent="trees" instance=ExtResource("2_pl11u")]
 position = Vector2(310, 106)
 
-[node name="Tree3" parent="trees" instance=ExtResource("2_e1j6l")]
+[node name="Tree3" parent="trees" instance=ExtResource("2_pl11u")]
 position = Vector2(305, -22)
 
-[node name="Tree4" parent="trees" instance=ExtResource("2_e1j6l")]
+[node name="Tree4" parent="trees" instance=ExtResource("2_pl11u")]
 position = Vector2(-230, -248)
 
-[node name="Tree5" parent="trees" instance=ExtResource("2_e1j6l")]
+[node name="Tree5" parent="trees" instance=ExtResource("2_pl11u")]
 position = Vector2(267, -290)
 
-[node name="Tree6" parent="trees" instance=ExtResource("2_e1j6l")]
+[node name="Tree6" parent="trees" instance=ExtResource("2_pl11u")]
 position = Vector2(123, -98)
 
-[node name="Tree7" parent="trees" instance=ExtResource("2_e1j6l")]
+[node name="Tree7" parent="trees" instance=ExtResource("2_pl11u")]
 position = Vector2(-217, 109)
 
-[node name="Tree8" parent="trees" instance=ExtResource("2_e1j6l")]
+[node name="Tree8" parent="trees" instance=ExtResource("2_pl11u")]
 position = Vector2(-401, 182)
 
-[node name="Tree9" parent="trees" instance=ExtResource("2_e1j6l")]
+[node name="Tree9" parent="trees" instance=ExtResource("2_pl11u")]
 position = Vector2(-400, -58)
 
-[node name="Tree10" parent="trees" instance=ExtResource("2_e1j6l")]
+[node name="Tree10" parent="trees" instance=ExtResource("2_pl11u")]
 position = Vector2(54, 207)
 
 [node name="mushrooms" type="Node2D" parent="."]
 y_sort_enabled = true
 position = Vector2(0, 137)
 
-[node name="Mushroom1" parent="mushrooms" instance=ExtResource("3_pl11u")]
+[node name="Mushroom1" parent="mushrooms" instance=ExtResource("3_bhx41")]
 position = Vector2(-320, 128)
 
-[node name="Mushroom2" parent="mushrooms" instance=ExtResource("3_pl11u")]
+[node name="Mushroom2" parent="mushrooms" instance=ExtResource("3_bhx41")]
 position = Vector2(-332, -108)
 
-[node name="Mushroom3" parent="mushrooms" instance=ExtResource("3_pl11u")]
+[node name="Mushroom3" parent="mushrooms" instance=ExtResource("3_bhx41")]
 position = Vector2(336, -332)
 
-[node name="Mushroom4" parent="mushrooms" instance=ExtResource("3_pl11u")]
+[node name="Mushroom4" parent="mushrooms" instance=ExtResource("3_bhx41")]
 position = Vector2(308, 104)
 
-[node name="Mushroom5" parent="mushrooms" instance=ExtResource("3_pl11u")]
+[node name="Mushroom5" parent="mushrooms" instance=ExtResource("3_bhx41")]
 position = Vector2(-28, -347)
 
-[node name="Mushroom6" parent="mushrooms" instance=ExtResource("3_pl11u")]
+[node name="Mushroom6" parent="mushrooms" instance=ExtResource("3_bhx41")]
 position = Vector2(18, 3)
 
 [node name="tilemaps" type="Node2D" parent="."]
@@ -522,10 +523,11 @@ tile_set = SubResource("TileSet_01v5l")
 z_index = 1
 y_sort_enabled = true
 
-[node name="Portal" parent="portals" instance=ExtResource("6_sww3w")]
+[node name="Portal" parent="portals" instance=ExtResource("6_suyxu")]
 y_sort_enabled = true
 position = Vector2(-205, -112)
-script = ExtResource("7_suyxu")
+script = ExtResource("7_sgl2t")
+teleport_position = Vector2(-490, 100)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="portals/Portal"]
 y_sort_enabled = true
@@ -534,59 +536,71 @@ autoplay = "default"
 
 [node name="doors" type="Node2D" parent="portals"]
 
-[node name="leftdoor" parent="portals/doors" instance=ExtResource("6_sww3w")]
+[node name="leftdoor" parent="portals/doors" instance=ExtResource("6_suyxu")]
 y_sort_enabled = true
 position = Vector2(-472, -327)
 scale = Vector2(1, 0.64)
-script = ExtResource("7_suyxu")
+script = ExtResource("7_sgl2t")
+teleport_position = Vector2(-455, -400)
+teleport_delay_seconds = 2.0
 
-[node name="rightdoor" parent="portals/doors" instance=ExtResource("6_sww3w")]
+[node name="rightdoor" parent="portals/doors" instance=ExtResource("6_suyxu")]
 y_sort_enabled = true
 position = Vector2(456, -327)
 scale = Vector2(1, 0.64)
-script = ExtResource("7_suyxu")
+script = ExtResource("7_sgl2t")
+teleport_position = Vector2(450, -400)
+teleport_delay_seconds = 2.0
 
 [node name="ladders" type="Node2D" parent="portals"]
 
-[node name="upleftladder" parent="portals/ladders" instance=ExtResource("6_sww3w")]
+[node name="upleftladder" parent="portals/ladders" instance=ExtResource("6_suyxu")]
 y_sort_enabled = true
 position = Vector2(-472, -392)
 scale = Vector2(1, 0.64)
-script = ExtResource("7_suyxu")
+script = ExtResource("7_sgl2t")
+teleport_position = Vector2(-400, -300)
+teleport_delay_seconds = 2.0
 
-[node name="uprightladder" parent="portals/ladders" instance=ExtResource("6_sww3w")]
+[node name="uprightladder" parent="portals/ladders" instance=ExtResource("6_suyxu")]
 y_sort_enabled = true
 position = Vector2(456, -392)
 scale = Vector2(1, 0.64)
-script = ExtResource("7_suyxu")
+script = ExtResource("7_sgl2t")
+teleport_position = Vector2(400, -300)
+teleport_delay_seconds = 2.0
 
-[node name="bottomleftladder2" parent="portals/ladders" instance=ExtResource("6_sww3w")]
+[node name="bottomleftladder2" parent="portals/ladders" instance=ExtResource("6_suyxu")]
 y_sort_enabled = true
 position = Vector2(-456, 345)
 scale = Vector2(1, 0.64)
-script = ExtResource("7_suyxu")
+script = ExtResource("7_sgl2t")
+teleport_position = Vector2(-400, 300)
+teleport_delay_seconds = 2.0
 
-[node name="bottomrightladder2" parent="portals/ladders" instance=ExtResource("6_sww3w")]
+[node name="bottomrightladder2" parent="portals/ladders" instance=ExtResource("6_suyxu")]
 y_sort_enabled = true
 position = Vector2(440, 344)
 scale = Vector2(1, 0.64)
-script = ExtResource("7_suyxu")
+script = ExtResource("7_sgl2t")
+teleport_position = Vector2(400, 300)
+teleport_delay_seconds = 2.0
 
 [node name="slimes" type="Node2D" parent="."]
 
-[node name="slime" parent="slimes" instance=ExtResource("9_qouja")]
+[node name="slime" parent="slimes" instance=ExtResource("9_wljb1")]
 position = Vector2(-241, 31)
 
-[node name="slime2" parent="slimes" instance=ExtResource("9_qouja")]
+[node name="slime2" parent="slimes" instance=ExtResource("9_wljb1")]
 position = Vector2(226, -56)
 
-[node name="slime3" parent="slimes" instance=ExtResource("9_qouja")]
+[node name="slime3" parent="slimes" instance=ExtResource("9_wljb1")]
 position = Vector2(-42, 199)
 
-[node name="slime4" parent="slimes" instance=ExtResource("9_qouja")]
+[node name="slime4" parent="slimes" instance=ExtResource("9_wljb1")]
 position = Vector2(-150, -74)
 
-[node name="HUD" parent="." instance=ExtResource("10_wljb1")]
+[node name="HUD" parent="." instance=ExtResource("10_v2yb1")]
 
 [node name="sprint" type="TextureRect" parent="HUD"]
 anchors_preset = 2
@@ -595,14 +609,14 @@ anchor_bottom = 1.0
 offset_top = -144.0
 offset_right = 144.0
 grow_vertical = 0
-texture = ExtResource("11_v2yb1")
+texture = ExtResource("11_js0lu")
 
 [node name="DaylightCycleUI" type="Control" parent="HUD"]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
-script = ExtResource("12_js0lu")
+script = ExtResource("12_gxtfn")
 
 [node name="TextureRect" type="TextureRect" parent="HUD/DaylightCycleUI"]
 layout_mode = 0
@@ -646,38 +660,39 @@ offset_bottom = 84.0
 rotation = -1.56729
 texture = SubResource("AtlasTexture_5x7lf")
 
-[node name="Player" parent="." instance=ExtResource("14_twgab")]
+[node name="Player" parent="." instance=ExtResource("14_02fa5")]
 z_index = 1
 y_sort_enabled = true
 collision_layer = 1
 
 [node name="SoundMachine" type="Node" parent="."]
-script = ExtResource("15_02fa5")
+script = ExtResource("15_nepv3")
 
 [node name="DayJingle" type="AudioStreamPlayer" parent="SoundMachine"]
-stream = ExtResource("16_nepv3")
+stream = ExtResource("16_7025r")
 
 [node name="NightJingle" type="AudioStreamPlayer" parent="SoundMachine"]
-stream = ExtResource("17_7025r")
+stream = ExtResource("17_m4url")
 
 [node name="DaySoundscape" type="AudioStreamPlayer" parent="SoundMachine"]
-stream = ExtResource("18_m4url")
+stream = ExtResource("18_8ool0")
 
 [node name="NightSoundscape" type="AudioStreamPlayer" parent="SoundMachine"]
-stream = ExtResource("19_8ool0")
+stream = ExtResource("19_pr1ej")
 
-[node name="well" parent="SoundMachine" instance=ExtResource("20_pr1ej")]
+[node name="well" parent="SoundMachine" instance=ExtResource("20_05nbr")]
 position = Vector2(-178, 254)
 
 [node name="CanvasModulate" type="CanvasModulate" parent="."]
-script = ExtResource("21_05nbr")
+script = ExtResource("21_0sl42")
+gradient_texture = ExtResource("22_oaba0")
 
-[node name="Shop" parent="." instance=ExtResource("22_0sl42")]
+[node name="Shop" parent="." instance=ExtResource("23_458eo")]
 z_index = 1
 y_sort_enabled = true
 position = Vector2(236, -141)
 
-[node name="Cursor" parent="." instance=ExtResource("23_oaba0")]
+[node name="Cursor" parent="." instance=ExtResource("24_h3rex")]
 position = Vector2(212, 182)
 
 [connection signal="body_exited" from="portals/Portal" to="portals/Portal" method="_on_body_exited"]

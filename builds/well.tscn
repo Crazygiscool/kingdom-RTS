@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://bo3lwepxt3438"]
+
+[ext_resource type="Script" path="res://scripts/well.gd" id="1_ttarh"]
+[ext_resource type="Texture2D" uid="uid://dsw2m83y1q6ks" path="res://assets/Tiles/tile_0104.png" id="2_x8sk7"]
+[ext_resource type="Texture2D" uid="uid://c08y7ro5xcx0f" path="res://assets/Tiles/tile_0092.png" id="3_ehwtn"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_peaan"]
+size = Vector2(24.5, 26)
+
+[node name="well" type="Area2D"]
+collision_layer = 8
+collision_mask = 9
+script = ExtResource("1_ttarh")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_peaan")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_x8sk7")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(0, -16)
+texture = ExtResource("3_ehwtn")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

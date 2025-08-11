@@ -11,10 +11,10 @@ config_version=5
 [application]
 
 config/name="kingdoms RTS"
-config/description="An RTS game by Crazygiscool, first ever game"
+config/description="An RTS game by Crazyg, first ever game"
 config/tags=PackedStringArray("rts")
 run/main_scene="res://scenes/game.tscn"
-config/features=PackedStringArray("4.3", "GL Compatibility")
+config/features=PackedStringArray("4.4", "GL Compatibility")
 boot_splash/bg_color=Color(0, 0, 0, 1)
 boot_splash/image="res://icon (1).png"
 config/icon="res://icon (1).png"
